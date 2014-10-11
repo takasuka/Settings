@@ -47,5 +47,11 @@ brew cask install xtrafinder
 
 brew cask alfred link
 
+brew tap sanemat/font
+brew cask install xquartz
+brew install ricty
+cp -f /usr/local/Cellar/ricty/3.2.3/share/fonts/Ricty*.ttf ~/Library/Fonts/
+fc-cache -vf
+
 brew cleanup
 brew cask cleanup
