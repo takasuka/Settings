@@ -82,6 +82,7 @@ compinit
 autoload bashcompinit
 bashcompinit
 source ~/bin/git-completion.bash
+source $(brew --prefix php-version)/php-version.sh && php-version 5
 
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
 [[ -s "/Users/takasuka-y/.gvm/bin/gvm-init.sh" ]] && source "/Users/takasuka-y/.gvm/bin/gvm-init.sh"
