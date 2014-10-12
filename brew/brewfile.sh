@@ -29,6 +29,7 @@ brew unlink php56
 brew install php54
 brew install php54-xdebug
 brew unlink php54
+brew install phpunit
 php-version 5.4
 
 brew cask install alfred
