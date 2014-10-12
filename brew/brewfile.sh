@@ -4,6 +4,7 @@ brew update
 brew upgrade
 
 brew tap homebrew/binary
+brew tap homebrew/php
 brew tap homebrew/versions
 brew tap caskroom/versions
 brew tap phinze/homebrew-cask
@@ -20,6 +21,15 @@ brew install tree
 brew install vim
 brew install wget
 brew install zsh
+
+brew install php-version
+brew install php56
+brew install php56-xdebug
+brew unlink php56
+brew install php54
+brew install php54-xdebug
+brew unlink php54
+php-version 5.4
 
 brew cask install alfred
 brew cask install dash
