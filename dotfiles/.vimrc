@@ -1,26 +1,26 @@
-set nocompatible
-filetype off
-if has('vim_starting')
-    set runtimepath+=~/.vim/neobundle.vim.git
-    call neobundle#rc(expand('~/.vim/'))
-endif
-
-NeoBundle 'Shougo/vimproc'
-NeoBundle 'Shougo/neocomplcache'
-NeoBundle 'Shougo/unite.vim'
-NeoBundle 'Shougo/vimfiler'
-NeoBundle 'thinca/vim-ref'
-NeoBundle 'thinca/vim-quickrun'
-NeoBundle 'tpope/vim-surround'
-NeoBundle 'nanotech/jellybeans.vim'
-NeoBundle 'LeafCage/foldCC'
-"NeoBundle 'mattn/webapi-vim'
-"NeoBundle 'thinca/vim-openbuf'
-"NeoBundle 'choplin/unite-vim_hacks'
-"NeoBundle 'altercation/vim-colors-solarized'
-"NeoBundle 'vim-scripts/DirDiff.vim'
-NeoBundle 'vim-scripts/wombat256.vim'
-NeoBundle 'opsplorer'
+"set nocompatible
+"filetype off
+"if has('vim_starting')
+"    set runtimepath+=~/.vim/neobundle.vim.git
+"    call neobundle#rc(expand('~/.vim/'))
+"endif
+"
+"NeoBundle 'Shougo/vimproc'
+"NeoBundle 'Shougo/neocomplcache'
+"NeoBundle 'Shougo/unite.vim'
+"NeoBundle 'Shougo/vimfiler'
+"NeoBundle 'thinca/vim-ref'
+"NeoBundle 'thinca/vim-quickrun'
+"NeoBundle 'tpope/vim-surround'
+"NeoBundle 'nanotech/jellybeans.vim'
+"NeoBundle 'LeafCage/foldCC'
+""NeoBundle 'mattn/webapi-vim'
+""NeoBundle 'thinca/vim-openbuf'
+""NeoBundle 'choplin/unite-vim_hacks'
+""NeoBundle 'altercation/vim-colors-solarized'
+""NeoBundle 'vim-scripts/DirDiff.vim'
+"NeoBundle 'vim-scripts/wombat256.vim'
+"NeoBundle 'opsplorer'
 filetype plugin indent on
 
 " ============================================================================= 
