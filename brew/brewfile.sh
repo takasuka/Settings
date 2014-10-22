@@ -55,6 +55,7 @@ brew cask install totalspaces
 brew cask install vagrant
 brew cask install virtualbox
 brew cask install xtrafinder
+brew cask install mysqlworkbench 
 
 brew cask alfred link
 
